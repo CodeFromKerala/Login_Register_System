@@ -44,7 +44,7 @@ def registered():
 def register():
 	return render_template("./register.html")
 
-@app.route('./achutty')
+@app.route('/achutty')
 def achutty():
 	return render_template("./achutty.html")
 
