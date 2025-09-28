@@ -31,6 +31,8 @@ def landing():
 			return render_template("./landing.html", username=username)
 	return redirect('/')
 
+# Add Functionality To Landing Page -> Example : A note storing page
+
 @app.route('/registered', methods=['POST'])
 def registered():
 	username = request.form['username']
